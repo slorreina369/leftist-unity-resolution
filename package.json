@@ -1,18 +1,17 @@
 {
-    "name": "leftist-unity",
-    "version": "",
-    "description": "",
+    "name": "leftist-unity-resolution",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
     "scripts": {
-        "start": "http-server ./build",
-        "build": "node ./scripts/build.js",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
         "lint": "prettier --check ."
     },
-    "dependencies": {
-        "handlebars": "^4.7.8"
-    },
     "devDependencies": {
+        "vite": "^5.4.10",
         "eslint-config-prettier": "^9.1.0",
-        "http-server": "^14.1.1",
         "prettier": "3.3.3"
     }
 }
