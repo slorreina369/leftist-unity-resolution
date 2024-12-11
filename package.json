@@ -1,9 +1,21 @@
 {
-  "dependencies": {
-    "handlebars": "^4.7.8"
-  },
-  "devDependencies": {
-    "eslint-config-prettier": "^9.1.0",
-    "prettier": "3.3.3"
-  }
+    "name": "leftist-unity-resolution",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "prettier --check ."
+    },
+    "devDependencies": {
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "3.3.3",
+        "vite": "^5.4.10",
+        "vite-plugin-handlebars": "^2.0.0"
+    },
+    "dependencies": {
+        "handlebars": "^4.7.8"
+    }
 }
