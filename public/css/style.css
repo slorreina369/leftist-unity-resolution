@@ -54,7 +54,14 @@ h2 {
 
 .resolution-title {
     text-align: center;
+    margin-top: 20px;
     padding: 40px;
+}
+
+hr {
+    border-bottom: 1px solid var(--primary-color);
+    margin: 25px auto;
+    width: 25%;
 }
 .about,
 .resolution-doc {
