@@ -115,3 +115,8 @@ img {
         background-color: #f9f9f9;
     }
 }
+
+.pdf {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+}
