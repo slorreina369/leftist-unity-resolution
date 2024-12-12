@@ -51,11 +51,17 @@ header nav li {
 h2 {
     font-size: 2em;
 }
-.about {
+
+.resolution-title {
+    text-align: center;
+    padding: 40px;
+}
+.about,
+.resolution-doc {
     background-color: var(--tertiary-color);
 }
 
-.about-text {
+.page-text {
     margin: auto;
     text-align: center;
     max-width: 1000px;
