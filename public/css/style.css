@@ -76,6 +76,12 @@ hr {
     font-weight: 600px;
 }
 
+#adobe-dc-view {
+    margin: auto;
+    height: 50vh;
+    width: 50vw;
+}
+
 button {
     background-color: transparent;
     color: var(--quinary-color);
