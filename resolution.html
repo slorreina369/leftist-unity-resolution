@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leftist Unity</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        {{> header }}
+        <main>
+            <h2 class="resolution-title">
+                Fair Democratic Primaries for a Healthy Coalition of the Left
+            </h2>
+            <hr />
+
+            <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+            <script type="text/javascript">
+                console.log('0');
+
+                function previewFile() {
+                    console.log('1');
+                    var adobeDCView = new AdobeDC.View({
+                        clientId: '4038f5cc649749bcb71cde06a1af4373',
+                        divId: 'adobe-dc-view',
+                    });
+                    console.log('2');
+                    adobeDCView.previewFile(
+                        {
+                            content: {
+                                location: {
+                                    url: '../../public/assets/Resolution.pdf',
+                                },
+                            },
+                            metaData: { fileName: 'Resolution.pdf' },
+                        },
+                        {
+                            embedMode: 'SIZED_CONTAINER',
+                            showDownloadPDF: false,
+                            showPrintPDF: false,
+                            showFullScreen: false,
+                        }
+                    );
+                }
+
+                document.addEventListener('DOMContentLoaded', function () {
+                    if (window.AdobeDC) {
+                        previewFile();
+                    } else {
+                        document.addEventListener(
+                            'adobe_dc_view_sdk.ready',
+                            previewFile
+                        );
+                    }
+                });
+            </script>
+            {{> resolution }}
+        </main>
+    </body>
+</html>

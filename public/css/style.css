@@ -51,16 +51,35 @@ header nav li {
 h2 {
     font-size: 2em;
 }
-.about {
+
+.resolution-title {
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+hr {
+    border-bottom: 1px solid var(--primary-color);
+    margin: 25px auto;
+    width: 25%;
+}
+.about,
+.resolution-doc {
     background-color: var(--tertiary-color);
 }
 
-.about-text {
+.page-text {
     margin: auto;
     text-align: center;
     max-width: 1000px;
     padding: 20px;
     font-weight: 600px;
+}
+
+#adobe-dc-view {
+    margin: auto;
+    height: 50vh;
+    width: 50vw;
 }
 
 button {
@@ -101,4 +120,9 @@ img {
     button {
         background-color: #f9f9f9;
     }
+}
+
+.pdf {
+    width: 100%;
+    aspect-ratio: 4 / 3;
 }
