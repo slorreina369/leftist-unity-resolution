@@ -1,4 +1,4 @@
-#Fair Primaries
+# Fair Primaries
 
 ## Description
 
@@ -24,8 +24,8 @@ Run server with `npm run dev`
 
 ## Screenshots
 
-![Screenshots](./public/assets/Home-pg.png)
-![Screenshots](./public/assets/Resolution-pg.png)
+![Screenshots] (./public/assets/Home-pg.png)
+![Screenshots] (./public/assets/Resolution-pg.png)
 
 ## Contributors
 
