@@ -99,7 +99,7 @@ button {
     height: 30em;
     width: 100%;
     margin: 5vw 0;
-    background-image: url(/public/assets/unity-smaller.jpg);
+    background-image: url(/assets/unity-smaller.jpg);
     background-size: cover;
     background-position: center;
 }
